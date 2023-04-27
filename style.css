@@ -150,3 +150,97 @@ background-image: url(/Images/invest9.png);
 .build{
     color: white;
 }
+@media (min-width: 600px) and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        background-color: black;
+    }
+    nav a{
+       margin: 20px;
+       padding: 80px;
+       color: gray;
+    }
+    .home{
+        color: rgb(5, 242, 5);
+    }
+    
+    .crypto{
+    background-image: url(/Images/coinbit.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    }
+    .more{
+        display: flex;
+        color: white;
+        gap: 200px
+        ;
+    }
+    .but1{
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: rgb(59, 68, 59);
+        border-style: inset;
+        border-color: rgb(4, 249, 4);
+    }
+    #trust{
+        color: grey;
+    }
+    #secure{
+        color: steelblue;
+    }
+    .butt2{
+        background-color:  rgb(7, 248, 7);
+        color: black;
+        padding: 20px 10px;
+        border-radius: 10px;
+    }
+    .laces{
+        background-color: rgb(7, 248, 7);
+        color: black;
+        border-radius: 8px;
+    }
+    .proctime{
+        background-color: lime;
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        padding: 10px;
+    }
+    #buy{
+        color: gainsboro;
+    }
+    .Table{
+        display: grid;
+        grid-template-columns: repeat(5,1fr) ;
+        color: white;
+    }
+    .Quad{
+    display: flex;
+    gap: 60px;
+    color: white;
+    }
+    .start{
+        color: white;
+    }
+    .Trio{
+    display: flex;
+    gap: 30px;
+    }
+    .Payment{
+        border-radius: 15px;
+        background-color: lightslategrey;
+        color: aliceblue;
+    }
+    .Vault{
+        border-radius: 15px;
+        background-color: lightslategrey;
+        color: aliceblue;
+    }
+    .Ecosystem{
+        border-radius: 15px;
+        background-color: lightslategrey;
+        color: aliceblue;
+    }
+    
+    }
