@@ -150,7 +150,59 @@ background-image: url(/Images/invest9.png);
 .build{
     color: white;
 }
-@media (min-width: 600px) and (max-width: 768px) {
+.close{
+    width: 300px;
+    height: 300px;
+}
+
+.end{
+    height: 300px;
+    width: 400px;
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    color: whitesmoke; 
+}
+.newusers{
+    padding: 40px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: blue;
+}
+.Email{
+    border-radius: 10px;
+    background-color: black;
+}
+.startt{
+    border-radius: 30px;
+    background-color: greenyellow;
+    padding: 5px;
+    margin-left: 200px;
+    width: 70px;
+}
+.lastone{
+    display: flex;
+    color: aliceblue;
+}
+.latmail{
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 5px;
+}
+#buttlast{
+    background-color: green;
+    color: wheat;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* @media (min-width: 600px) and (max-width: 768px) {
     body{
         overflow-x: hidden;
         background-color: black;
@@ -243,4 +295,4 @@ background-image: url(/Images/invest9.png);
         color: aliceblue;
     }
     
-    }
+    } */
